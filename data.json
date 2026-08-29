@@ -103,7 +103,7 @@
       "name": "BMW 4 Series M440i Convertible",
       "category": "Convertible",
       "tag": "40% OFF",
-      "image": "https://github.com/siidaar1/eliteone-cars/blob/main/IMG_4129.PNG",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4129.PNG",
       "specs": { "hp": "374 HP", "speed": "4.5s 0-100", "seats": "4 Seats" },
       "description": "Sharp handling and open-air style in one sleek package"
     },
