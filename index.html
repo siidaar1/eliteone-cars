@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteOne - Luxury Car Rental Dubai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-blue: #1e3a5f;
+            --accent-gold: #c9a961;
+            --light-bg: #f5f3f0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #2c5282 100%);
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+        }
+
+        .car-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .car-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .discount-badge {
+            background: linear-gradient(135deg, var(--primary-blue), #1a2744);
+            color: var(--accent-gold);
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .discount-value {
+            font-size: 36px;
+            color: var(--accent-gold);
+        }
+
+        .discount-text {
+            font-size: 12px;
+            color: white;
+        }
+
+        .nav-link {
+            color: white;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: var(--accent-gold);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-gold), #b8941e);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(201, 169, 97, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--primary-blue);
+            color: white;
+            border: 2px solid var(--accent-gold);
+            padding: 12px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background: var(--accent-gold);
+            color: var(--primary-blue);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent-gold), #b8941e);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+        }
+
+        .section-title {
+            color: var(--primary-blue);
+            font-size: 36px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .gold-accent {
+            color: var(--accent-gold);
+        }
+
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid var(--primary-blue);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 2px solid var(--primary-blue);
+            background: white;
+            color: var(--primary-blue);
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .filter-btn.active {
+            background: var(--primary-blue);
+            color: white;
+        }
+
+        .filter-btn:hover {
+            background: var(--primary-blue);
+            color: white;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .modal.active {
+            display: block;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 30px;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .close-btn {
+            color: var(--primary-blue);
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            color: var(--accent-gold);
+        }
+
+        .payment-option {
+            border: 2px solid #e0e0e0;
+            padding: 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .payment-option:hover {
+            border-color: var(--accent-gold);
+            background-color: var(--light-bg);
+        }
+
+        .payment-option.selected {
+            border-color: var(--primary-blue);
+            background-color: rgba(30, 58, 95, 0.1);
+        }
+
+        .car-spec {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 8px 0;
+        }
+
+        .car-spec-icon {
+            width: 30px;
+            height: 30px;
+            background: rgba(201, 169, 97, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--accent-gold);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50" style="background: var(--primary-blue);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 80'%3E%3Ccircle cx='50' cy='40' r='35' fill='white' opacity='0.1'/%3E%3Ctext x='50' y='50' font-size='36' font-weight='bold' fill='%23c9a961' text-anchor='middle'%3EE1%3C/text%3E%3Ctext x='120' y='30' font-size='14' font-weight='bold' fill='white' letter-spacing='2'%3EELITEONE%3C/text%3E%3Ctext x='120' y='50' font-size='10' fill='%23c9a961' letter-spacing='1'%3ECAR RENTAL%3C/text%3E%3C/svg%3E" alt="EliteOne" class="h-12">
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#cars" class="nav-link">Our Fleet</a>
+                    <a href="#features" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="btn-primary md:block hidden">Book Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section pt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="text-white">
+                    <h1 class="text-5xl md:text-6xl font-bold mb-4">Drive Luxury.<br><span class="gold-accent">Live the Experience.</span></h1>
+                    <p class="text-xl text-gray-200 mb-8">Discover our exclusive collection of luxury and exotic cars for rent in Dubai with premium service and flexible booking options.</p>
+                    <div class="flex gap-4">
+                        <button class="btn-primary" onclick="document.getElementById('bookingModal').classList.add('active')">Book Your Drive</button>
+                        <button class="btn-secondary">Learn More</button>
+                    </div>
+                    <div class="flex gap-8 mt-12 text-sm">
+                        <div>
+                            <div class="text-3xl font-bold gold-accent">50+</div>
+                            <div class="text-gray-300">Luxury Cars</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold gold-accent">24/7</div>
+                            <div class="text-gray-300">Support</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-bold gold-accent">0</div>
+                            <div class="text-gray-300">Deposit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <svg class="w-full" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M200 350 Q100 300 80 200 Q60 100 200 50 Q340 100 320 200 Q300 300 200 350" fill="rgba(201,169,97,0.2)"/>
+                        <circle cx="200" cy="200" r="100" fill="rgba(201,169,97,0.1)"/>
+                        <text x="200" y="220" font-size="80" font-weight="bold" fill="#c9a961" text-anchor="middle">E1</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="py-8 bg-gray-50 sticky top-20 z-40">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-wrap gap-3 justify-center">
+                <button class="filter-btn active" onclick="filterCars('all')">All Cars</button>
+                <button class="filter-btn" onclick="filterCars('Ferrari')">Ferrari</button>
+                <button class="filter-btn" onclick="filterCars('BMW')">BMW</button>
+                <button class="filter-btn" onclick="filterCars('Bentley')">Bentley</button>
+                <button class="filter-btn" onclick="filterCars('Lamborghini')">Lamborghini</button>
+                <button class="filter-btn" onclick="filterCars('Mercedes')">Mercedes</button>
+                <button class="filter-btn" onclick="filterCars('Chevrolet')">Chevrolet</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cars Section -->
+    <section id="cars" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="section-title">Our Exclusive Fleet</h2>
+            
+            <div id="loadingSpinner" class="flex justify-center mb-10">
+                <div class="loading-spinner"></div>
+            </div>
+
+            <div id="carsContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 hidden">
+                <!-- Cars will be populated here by JavaScript -->
+            </div>
+
+            <div id="noCarsMessage" class="text-center py-12 hidden">
+                <p class="text-gray-500 text-lg">No cars found in this category.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="section-title">Why Choose <span class="gold-accent">EliteOne?</span></h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="feature-icon mx-auto mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2" style="color: var(--primary-blue);">Full Insurance</h3>
+                    <p class="text-gray-600">Comprehensive coverage included in all rentals</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="feature-icon mx-auto mb-4">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2" style="color: var(--primary-blue);">Free Delivery</h3>
+                    <p class="text-gray-600">Complimentary delivery across Dubai</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="feature-icon mx-auto mb-4">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2" style="color: var(--primary-blue);">24/7 Support</h3>
+                    <p class="text-gray-600">Round-the-clock customer assistance</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="feature-icon mx-auto mb-4">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2" style="color: var(--primary-blue);">Zero Deposit</h3>
+                    <p class="text-gray-600">No deposit required, easy booking process</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Methods Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="section-title">Payment <span class="gold-accent">Options</span></h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div class="payment-option text-center cursor-pointer" onclick="selectPayment(this, 'Cash')">
+                    <i class="fas fa-money-bill text-3xl mb-3" style="color: var(--accent-gold);"></i>
+                    <p class="font-semibold">Cash</p>
+                </div>
+                <div class="payment-option text-center cursor-pointer" onclick="selectPayment(this, 'Credit Card')">
+                    <i class="fas fa-credit-card text-3xl mb-3" style="color: var(--accent-gold);"></i>
+                    <p class="font-semibold">Card</p>
+                </div>
+                <div class="payment-option text-center cursor-pointer" onclick="selectPayment(this, 'PayPal')">
+                    <i class="fab fa-paypal text-3xl mb-3" style="color: var(--accent-gold);"></i>
+                    <p class="font-semibold">PayPal</p>
+                </div>
+                <div class="payment-option text-center cursor-pointer" onclick="selectPayment(this, 'Bank Transfer')">
+                    <i class="fas fa-university text-3xl mb-3" style="color: var(--accent-gold);"></i>
+                    <p class="font-semibold">Bank</p>
+                </div>
+                <div class="payment-option text-center cursor-pointer" onclick="selectPayment(this, 'Crypto')">
+                    <i class="fab fa-bitcoin text-3xl mb-3" style="color: var(--accent-gold);"></i>
+                    <p class="font-semibold">Crypto</p>
+                </div>
+                <div class="payment-option text-center cursor-pointer" onclick="selectPayment(this, 'USDT')">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%2326A17B'/%3E%3Ctext x='50' y='65' font-size='40' font-weight='bold' fill='white' text-anchor='middle'%3EU%3C/text%3E%3C/svg%3E" alt="USDT" class="w-12 h-12 mx-auto mb-2">
+                    <p class="font-semibold">USDT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20" style="background: linear-gradient(135deg, var(--primary-blue) 0%, #2c5282 100%);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center text-white mb-12">
+                <h2 class="text-4xl font-bold mb-4">Get In <span class="gold-accent">Touch</span></h2>
+                <p class="text-xl text-gray-300">Ready to experience luxury? Contact us today!</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="contactInfo">
+                <!-- Contact info will be populated from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h3 class="text-white font-bold mb-4">About EliteOne</h3>
+                    <p class="text-sm">Premium luxury car rental service in Dubai with the finest selection of exotic and luxury vehicles.</p>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-4">Quick Links</h3>
+                    <ul class="text-sm space-y-2">
+                        <li><a href="#home" class="hover:text-white transition">Home</a></li>
+                        <li><a href="#cars" class="hover:text-white transition">Our Fleet</a></li>
+                        <li><a href="#features" class="hover:text-white transition">Services</a></li>
+                        <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-4">Services</h3>
+                    <ul class="text-sm space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Car Rental</a></li>
+                        <li><a href="#" class="hover:text-white transition">Airport Transfer</a></li>
+                        <li><a href="#" class="hover:text-white transition">Wedding Rentals</a></li>
+                        <li><a href="#" class="hover:text-white transition">Corporate Leasing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hover:text-white transition"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="hover:text-white transition"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="hover:text-white transition"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 pt-8 text-center">
+                <p>&copy; 2024 EliteOne Car Rental. All rights reserved. | <a href="#" class="hover:text-white">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="document.getElementById('bookingModal').classList.remove('active')">&times;</span>
+            <h2 class="text-3xl font-bold mb-6" style="color: var(--primary-blue);">Book Your Car</h2>
+            
+            <form id="bookingForm" onsubmit="handleBooking(event)">
+                <div class="mb-4">
+                    <label class="block text-sm font-semibold mb-2">Full Name</label>
+                    <input type="text" required class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-600" placeholder="Your name">
+                </div>
+
+                <div class="mb-4">
+                    <label class="block text-sm font-semibold mb-2">Email</label>
+                    <input type="email" required class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-600" placeholder="your@email.com">
+                </div>
+
+                <div class="mb-4">
+                    <label class="block text-sm font-semibold mb-2">Phone</label>
+                    <input type="tel" required class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-600" placeholder="+971 XX XXX XXXX">
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Pick-up Date</label>
+                        <input type="date" required class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-600">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Return Date</label>
+                        <input type="date" required class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-600">
+                    </div>
+                </div>
+
+                <div class="mb-6">
+                    <label class="block text-sm font-semibold mb-2">Car Selection</label>
+                    <select required class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:border-yellow-600" id="carSelect">
+                        <option value="">Select a car...</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-primary w-full">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Car Details Modal -->
+    <div id="carModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="document.getElementById('carModal').classList.remove('active')">&times;</span>
+            <div id="carModalContent">
+                <!-- Car details will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
