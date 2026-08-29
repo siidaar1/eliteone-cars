@@ -24,7 +24,7 @@
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "617 HP", "speed": "3.1s 0-100", "seats": "4 Seats" },
-      "arabicDesc": "فخامة مكشوفة... وأداء يخطف الأنظار"
+      "description": "Open-top luxury with breathtaking, head-turning performance"
     },
     {
       "id": "ferrari-purosangue",
@@ -33,7 +33,7 @@
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "715 HP", "speed": "3.3s 0-100", "seats": "4 Seats" },
-      "arabicDesc": "فخامة إيطالية... وأداء يلفت الأنظار"
+      "description": "Italian luxury and performance that demands attention"
     },
     {
       "id": "lamborghini-urus",
@@ -42,7 +42,7 @@
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "650 HP", "speed": "3.6s 0-100", "seats": "5 Seats" },
-      "arabicDesc": "Command Every Road. Unleash unstoppable power."
+      "description": "Command every road. Unleash unstoppable power."
     },
     {
       "id": "corvette-c8",
@@ -51,7 +51,7 @@
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
-      "arabicDesc": "أداء أمريكي جريء وتجربة قيادة تخطف الأنظار"
+      "description": "Bold American performance and a driving experience that turns heads"
     },
     {
       "id": "bentley-bentayga",
@@ -60,7 +60,97 @@
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "542 HP", "speed": "4.4s 0-100", "seats": "5 Seats" },
-      "arabicDesc": "فخامة بريطانية... وحضور يفرض نفسه"
+      "description": "British luxury with a commanding presence"
+    },
+    {
+      "id": "rolls-royce-cullinan",
+      "name": "Rolls-Royce Cullinan",
+      "category": "SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "563 HP", "speed": "4.9s 0-100", "seats": "5 Seats" },
+      "description": "The pinnacle of British luxury with an unmatched, regal presence"
+    },
+    {
+      "id": "mercedes-amg-g63",
+      "name": "Mercedes-AMG G63",
+      "category": "SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "577 HP", "speed": "4.5s 0-100", "seats": "5 Seats" },
+      "description": "Raw power with an iconic design and total road command"
+    },
+    {
+      "id": "porsche-911-turbo-s",
+      "name": "Porsche 911 Turbo S",
+      "category": "Sports",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "640 HP", "speed": "2.7s 0-100", "seats": "4 Seats" },
+      "description": "Legendary German performance with unrivaled engineering precision"
+    },
+    {
+      "id": "range-rover-autobiography",
+      "name": "Range Rover Autobiography",
+      "category": "SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "523 HP", "speed": "5.4s 0-100", "seats": "5 Seats" },
+      "description": "Classic British elegance with comfort that exceeds expectations"
+    },
+    {
+      "id": "ferrari-488-spider",
+      "name": "Ferrari 488 Spider",
+      "category": "Convertible",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "661 HP", "speed": "3.0s 0-100", "seats": "2 Seats" },
+      "description": "Open-top Italian thrill with an engine note that takes your breath away"
+    },
+    {
+      "id": "mclaren-720s",
+      "name": "McLaren 720S",
+      "category": "Sports",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "710 HP", "speed": "2.8s 0-100", "seats": "2 Seats" },
+      "description": "Futuristic design with performance that defies the laws of physics"
+    },
+    {
+      "id": "aston-martin-dbx",
+      "name": "Aston Martin DBX",
+      "category": "SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1600712242805-5f78671b24da?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "542 HP", "speed": "4.3s 0-100", "seats": "5 Seats" },
+      "description": "British sporting elegance with a perfect balance of luxury and power"
+    },
+    {
+      "id": "rolls-royce-ghost",
+      "name": "Rolls-Royce Ghost",
+      "category": "Convertible",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "563 HP", "speed": "4.8s 0-100", "seats": "5 Seats" },
+      "description": "Luxurious silence with a driving experience like a dream"
+    },
+    {
+      "id": "audi-rsq8",
+      "name": "Audi RS Q8",
+      "category": "SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "591 HP", "speed": "3.8s 0-100", "seats": "5 Seats" },
+      "description": "German precision and sporting power in a design that commands respect"
+    },
+    {
+      "id": "mercedes-maybach-s680",
+      "name": "Mercedes-Maybach S680",
+      "category": "Convertible",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "621 HP", "speed": "4.4s 0-100", "seats": "5 Seats" },
+      "description": "The height of German refinement with comfort fit for royalty"
     }
   ],
   "testimonials": [
