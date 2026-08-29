@@ -22,7 +22,7 @@
       "name": "McLaren GT",
       "category": "Sports",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4139.PNG",
       "specs": { "hp": "620 HP", "speed": "3.2s 0-100", "seats": "2 Seats" },
       "description": "The ultimate grand tourer, blending supercar performance with everyday comfort"
     },
@@ -31,7 +31,7 @@
       "name": "Lamborghini Urus",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4140.PNG",
       "specs": { "hp": "650 HP", "speed": "3.6s 0-100", "seats": "5 Seats" },
       "description": "Command every road. Unleash unstoppable power."
     },
@@ -40,7 +40,7 @@
       "name": "Lamborghini Urus (Stealth Luxury SUV)",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4141.PNG",
       "specs": { "hp": "650 HP", "speed": "3.6s 0-100", "seats": "5 Seats" },
       "description": "A murdered-out, all-black finish for a bold, understated presence"
     },
@@ -49,7 +49,7 @@
       "name": "Bentley Continental GTC",
       "category": "Convertible",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4143.PNG",
       "specs": { "hp": "542 HP", "speed": "3.7s 0-100", "seats": "4 Seats" },
       "description": "Open-top British grand touring at its most refined"
     },
@@ -58,7 +58,7 @@
       "name": "Bentley Bentayga",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4145.PNG",
       "specs": { "hp": "542 HP", "speed": "4.4s 0-100", "seats": "5 Seats" },
       "description": "British luxury with a commanding presence"
     },
@@ -67,7 +67,7 @@
       "name": "Lamborghini Urus Performante",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1614026480414-6059f9d5a961?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4137.PNG",
       "specs": { "hp": "657 HP", "speed": "3.3s 0-100", "seats": "5 Seats" },
       "description": "The lightest, fastest Urus, built for the track and the road alike"
     },
@@ -76,7 +76,7 @@
       "name": "Mercedes-Maybach GLS 600",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4142.PNG",
       "specs": { "hp": "550 HP", "speed": "4.9s 0-100", "seats": "5 Seats" },
       "description": "First-class comfort in a full-size luxury SUV"
     },
@@ -85,7 +85,7 @@
       "name": "Rolls-Royce Ghost",
       "category": "Convertible",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4144.PNG",
       "specs": { "hp": "563 HP", "speed": "4.8s 0-100", "seats": "5 Seats" },
       "description": "Luxurious silence with a driving experience like a dream"
     },
@@ -94,7 +94,7 @@
       "name": "Brabus G-Class",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://ibb.co/HLdJgxqf",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4146.PNG",
       "specs": { "hp": "800 HP", "speed": "3.8s 0-100", "seats": "5 Seats" },
       "description": "Widebody muscle and outrageous power in an off-road icon"
     },
@@ -175,7 +175,7 @@
       "name": "Ferrari Purosangue",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4138.PNG",
       "specs": { "hp": "715 HP", "speed": "3.3s 0-100", "seats": "4 Seats" },
       "description": "Italian luxury and performance that demands attention"
     }
