@@ -196,27 +196,5 @@
     "https://www.image2url.com/r2/default/videos/1788039047143-42bc369e-ff0b-47a2-b47c-81e32aad22ad.mp4",
     "https://www.image2url.com/r2/default/videos/1788039115361-6a535d2a-f152-438f-b43f-a08cac969fc8.mp4",
     "https://www.image2url.com/r2/default/videos/1788039160104-8a5e8170-18c2-44d6-8327-4620b72687b5.mp4"
-  ],
-  "paymentMethods": [
-    {
-      "icon": "credit-card",
-      "title": "Credit & Debit Cards",
-      "desc": "We accept Visa, MasterCard, and American Express with secure processing."
-    },
-    {
-      "icon": "money-bill-wave",
-      "title": "Cash on Delivery",
-      "desc": "Pay conveniently with cash (AED, USD, EUR, GBP) upon car delivery."
-    },
-    {
-      "icon": "building-columns",
-      "title": "Bank Wire Transfer",
-      "desc": "Direct bank transfers available for corporate rentals and long-term bookings."
-    },
-    {
-      "icon": "coins",
-      "title": "Cryptocurrency",
-      "desc": "Modern and fast payments accepted via Bitcoin, USDT, and major coins."
-    }
   ]
 }
