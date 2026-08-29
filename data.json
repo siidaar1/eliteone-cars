@@ -168,6 +168,31 @@
       "name": "Marcus Aurelius",
       "comment": "Seamless crypto and USDT payment options. Highly professional team available 24/7 on WhatsApp.",
       "rating": 5
+    },
+    {
+      "name": "James Whitfield",
+      "comment": "Rented the Rolls-Royce Cullinan for my anniversary trip. Flawless condition and the delivery to the airport was right on time.",
+      "rating": 5
+    },
+    {
+      "name": "Layla Hassan",
+      "comment": "Booked the Range Rover for a week-long family trip around Dubai. Smooth process from start to finish, no hidden fees at all.",
+      "rating": 5
+    },
+    {
+      "name": "Dimitri Sokolov",
+      "comment": "The Porsche 911 Turbo S exceeded my expectations. Elite One's team was responsive on WhatsApp even at midnight.",
+      "rating": 5
+    },
+    {
+      "name": "Sara Al-Nuaimi",
+      "comment": "Great experience renting the Mercedes-Maybach for a business event. Very professional and the car was spotless.",
+      "rating": 5
+    },
+    {
+      "name": "Ryan Cooper",
+      "comment": "First time renting a supercar and Elite One made it effortless. The McLaren 720S was a dream to drive around Dubai.",
+      "rating": 5
     }
   ],
   "faqs": [
@@ -186,15 +211,50 @@
     {
       "q": "What documents are required to rent?",
       "a": "For tourists, we require a valid Passport, International Driving Permit (IDP), and home country driving license. Residents need a UAE Driving License and Emirates ID."
+    },
+    {
+      "q": "What is the minimum age to rent a car?",
+      "a": "Renters must be at least 21 years old for standard vehicles and 25 years old for our luxury and exotic car categories."
+    },
+    {
+      "q": "Can I extend my rental period after booking?",
+      "a": "Yes, extensions can be arranged easily through WhatsApp or a phone call, subject to vehicle availability."
+    },
+    {
+      "q": "Is there a mileage limit on rentals?",
+      "a": "Most rentals include a daily mileage allowance of 250km. Unlimited mileage packages are available upon request for an additional fee."
     }
   ],
   "policies": [
     { "title": "Company Rules", "items": ["No Deposit required to speed up rental process", "Every accident needs a police report unless proven otherwise", "Any traffic violation during rental period is your responsibility", "Reckless driving or tyre burning leads to fines"] },
-    { "title": "Your Comfort & Safety", "items": ["Car provided in best condition for safe journey", "Full safety check and 24/7 assistance", "Zero deposit safety policy", "Drive safely and enjoy your stay with Elite One"] }
+    { "title": "Your Comfort & Safety", "items": ["Car provided in best condition for safe journey", "Full safety check and 24/7 assistance", "Zero deposit safety policy", "Drive safely and enjoy your stay with Elite One"] },
+    { "title": "Booking & Cancellation", "items": ["Bookings can be cancelled free of charge up to 24 hours before pickup", "Late cancellations may incur a one-day rental fee", "Early returns are not eligible for partial refunds", "Rescheduling is free of charge subject to availability"] }
   ],
   "videos": [
     "https://www.image2url.com/r2/default/videos/1788039047143-42bc369e-ff0b-47a2-b47c-81e32aad22ad.mp4",
     "https://www.image2url.com/r2/default/videos/1788039115361-6a535d2a-f152-438f-b43f-a08cac969fc8.mp4",
     "https://www.image2url.com/r2/default/videos/1788039160104-8a5e8170-18c2-44d6-8327-4620b72687b5.mp4"
+  ],
+  "paymentMethods": [
+    {
+      "icon": "credit-card",
+      "title": "Credit & Debit Cards",
+      "desc": "We accept Visa, MasterCard, and American Express with secure processing."
+    },
+    {
+      "icon": "money-bill-wave",
+      "title": "Cash on Delivery",
+      "desc": "Pay conveniently with cash (AED, USD, EUR, GBP) upon car delivery."
+    },
+    {
+      "icon": "building-columns",
+      "title": "Bank Wire Transfer",
+      "desc": "Direct bank transfers available for corporate rentals and long-term bookings."
+    },
+    {
+      "icon": "coins",
+      "title": "Cryptocurrency",
+      "desc": "Modern and fast payments accepted via Bitcoin, USDT, and major coins."
+    }
   ]
 }
