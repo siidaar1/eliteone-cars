@@ -1,181 +1,68 @@
 {
+  "company": {
+    "name": "ELITE ONE",
+    "tagline": "CAR RENTAL COMPANY",
+    "location": "Dubai, UAE",
+    "phone": "+972 54 979 4911",
+    "whatsapp": "+972549794911",
+    "email": "moradmilhem14@gmail.com",
+    "instagram": "https://www.instagram.com/rentelite1"
+  },
+  "features": [
+    { "icon": "shield-check", "text": "Full Insurance Included" },
+    { "icon": "truck", "text": "Free Delivery in Dubai" },
+    { "icon": "clock", "text": "24/7 Support" },
+    { "icon": "calendar", "text": "Daily, Weekly & Monthly" }
+  ],
   "cars": [
     {
       "id": "bmw-m8",
-      "brand": "BMW",
-      "model": "M8 Cabrio",
+      "name": "BMW M8 Cabrio",
       "category": "Luxury Convertible",
-      "description": "Ultimate luxury convertible with breathtaking performance",
-      "fullDescription": "The BMW M8 Cabrio combines elegant Italian design with world-class performance. Featuring a premium soft-top roof and a twin-turbo engine, this convertible delivers an unforgettable driving experience.",
-      "image": "https://images.unsplash.com/photo-1552820728-8ac41f1ce891?w=600&h=400&fit=crop",
-      "pricePerDay": 1200,
-      "discount": 40,
-      "specs": [
-        { "label": "625 HP", "icon": "fas fa-gauge-high" },
-        { "label": "3.2 Sec (0-100)", "icon": "fas fa-bolt" },
-        { "label": "2 Seats", "icon": "fas fa-chair" },
-        { "label": "AWD", "icon": "fas fa-road" }
-      ]
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "617 HP", "speed": "3.1s 0-100", "seats": "4 Seats" },
+      "arabicDesc": "فخامة مكشوفة... وأداء يخطف الأنظار"
     },
     {
-      "id": "ferrari-puro",
-      "brand": "Ferrari",
-      "model": "Purosangue",
-      "category": "Italian Supercar",
-      "description": "Pure Italian excellence and breathtaking performance",
-      "fullDescription": "The Ferrari Purosangue is the pinnacle of Italian engineering. With its stunning design and incredible performance, it delivers supercar thrills with everyday practicality.",
-      "image": "https://images.unsplash.com/photo-1634822185396-cf59c9fbe898?w=600&h=400&fit=crop",
-      "pricePerDay": 1500,
-      "discount": 40,
-      "specs": [
-        { "label": "725 HP", "icon": "fas fa-gauge-high" },
-        { "label": "3.3 Sec", "icon": "fas fa-bolt" },
-        { "label": "5 Seats", "icon": "fas fa-chair" },
-        { "label": "AWD", "icon": "fas fa-road" }
-      ]
-    },
-    {
-      "id": "bentley-bentayga",
-      "brand": "Bentley",
-      "model": "Bentayga",
-      "category": "British Luxury SUV",
-      "description": "British luxury meets commanding presence and elegance",
-      "fullDescription": "The Bentley Bentayga is the world's most luxurious SUV. Handcrafted with premium materials and featuring a powerful engine, it offers unparalleled comfort and performance.",
-      "image": "https://images.unsplash.com/photo-1633828606760-e4d3fab7d4d0?w=600&h=400&fit=crop",
-      "pricePerDay": 1300,
-      "discount": 40,
-      "specs": [
-        { "label": "542 HP", "icon": "fas fa-gauge-high" },
-        { "label": "4.3 Sec", "icon": "fas fa-bolt" },
-        { "label": "5 Seats", "icon": "fas fa-chair" },
-        { "label": "AWD", "icon": "fas fa-road" }
-      ]
+      "id": "ferrari-purosangue",
+      "name": "Ferrari Purosangue",
+      "category": "Exotic SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "715 HP", "speed": "3.3s 0-100", "seats": "4 Seats" },
+      "arabicDesc": "فخامة إيطالية... وأداء يلفت الأنظار"
     },
     {
       "id": "lamborghini-urus",
-      "brand": "Lamborghini",
-      "model": "Urus",
-      "category": "Italian Supercar SUV",
-      "description": "Unleash unstoppable power and bold Italian design",
-      "fullDescription": "The Lamborghini Urus delivers supercar thrills with everyday versatility. With its powerful V8 twin-turbo engine and distinctive design, it makes every drive extraordinary.",
-      "image": "https://images.unsplash.com/photo-1637331692429-fc0998e9db2a?w=600&h=400&fit=crop",
-      "pricePerDay": 1400,
-      "discount": 40,
-      "specs": [
-        { "label": "650 HP", "icon": "fas fa-gauge-high" },
-        { "label": "3.6 Sec", "icon": "fas fa-bolt" },
-        { "label": "5 Seats", "icon": "fas fa-chair" },
-        { "label": "AWD", "icon": "fas fa-road" }
-      ]
+      "name": "Lamborghini Urus",
+      "category": "Super Sport SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "650 HP", "speed": "3.6s 0-100", "seats": "5 Seats" },
+      "arabicDesc": "Command Every Road. Unleash unstoppable power."
     },
     {
-      "id": "mercedes-maybach",
-      "brand": "Mercedes",
-      "model": "Maybach GLS 600",
-      "category": "Luxury Chauffeur SUV",
-      "description": "Luxury without compromise and premium driving experience",
-      "fullDescription": "The Mercedes-Maybach GLS 600 is the ultimate luxury SUV for the discerning client. With its opulent interior and powerful performance, it sets new standards in automotive excellence.",
-      "image": "https://images.unsplash.com/photo-1634822185396-cf59c9fbe898?w=600&h=400&fit=crop",
-      "pricePerDay": 1350,
-      "discount": 40,
-      "specs": [
-        { "label": "550 HP", "icon": "fas fa-gauge-high" },
-        { "label": "4.5 Sec", "icon": "fas fa-bolt" },
-        { "label": "5 Seats", "icon": "fas fa-chair" },
-        { "label": "AWD", "icon": "fas fa-road" }
-      ]
+      "id": "corvette-c8",
+      "name": "Chevrolet Corvette C8",
+      "category": "American Legend",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
+      "arabicDesc": "أداء أمريكي جريء وتجربة قيادة تخطف الأنظار"
     },
     {
-      "id": "chevrolet-corvette",
-      "brand": "Chevrolet",
-      "model": "Corvette C8",
-      "category": "American Supercar",
-      "description": "American performance and engineering excellence",
-      "fullDescription": "The Chevrolet Corvette C8 is an icon of American performance. With its mid-engine design and stunning performance, it delivers supercar thrills at an accessible price point.",
-      "image": "https://images.unsplash.com/photo-1609708536965-59d79e39a9b2?w=600&h=400&fit=crop",
-      "pricePerDay": 1100,
-      "discount": 40,
-      "specs": [
-        { "label": "495 HP", "icon": "fas fa-gauge-high" },
-        { "label": "2.9 Sec", "icon": "fas fa-bolt" },
-        { "label": "2 Seats", "icon": "fas fa-chair" },
-        { "label": "RWD", "icon": "fas fa-road" }
-      ]
-    },
-    {
-      "id": "brabus-g",
-      "brand": "Brabus",
-      "model": "G-Class",
-      "category": "Luxury 4x4",
-      "description": "Ultimate luxury SUV with extraordinary capabilities",
-      "fullDescription": "The Brabus G-Class is a masterpiece of engineering and luxury. With its enhanced performance and bespoke interior, it offers unmatched prestige and capability.",
-      "image": "https://images.unsplash.com/photo-1567818735868-e71b99932e29?w=600&h=400&fit=crop",
-      "pricePerDay": 1250,
-      "discount": null,
-      "specs": [
-        { "label": "450 HP", "icon": "fas fa-gauge-high" },
-        { "label": "5.4 Sec", "icon": "fas fa-bolt" },
-        { "label": "5 Seats", "icon": "fas fa-chair" },
-        { "label": "4WD", "icon": "fas fa-road" }
-      ]
-    },
-    {
-      "id": "rolls-royce-phantom",
-      "brand": "Rolls Royce",
-      "model": "Phantom",
-      "category": "Ultra Luxury Sedan",
-      "description": "The pinnacle of automotive luxury and refinement",
-      "fullDescription": "The Rolls-Royce Phantom represents the ultimate expression of luxury motoring. Meticulously handcrafted with the finest materials, it delivers an experience like no other.",
-      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
-      "pricePerDay": 2000,
-      "discount": null,
-      "specs": [
-        { "label": "563 HP", "icon": "fas fa-gauge-high" },
-        { "label": "5.8 Sec", "icon": "fas fa-bolt" },
-        { "label": "5 Seats", "icon": "fas fa-chair" },
-        { "label": "RWD", "icon": "fas fa-road" }
-      ]
-    },
-    {
-      "id": "porsche-911-turbo",
-      "brand": "Porsche",
-      "model": "911 Turbo",
-      "category": "Sports Car",
-      "description": "German engineering meets pure performance",
-      "fullDescription": "The Porsche 911 Turbo combines iconic design with incredible performance. With its powerful twin-turbo engine, it delivers thrilling acceleration and handling.",
-      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&h=400&fit=crop",
-      "pricePerDay": 1050,
-      "discount": null,
-      "specs": [
-        { "label": "580 HP", "icon": "fas fa-gauge-high" },
-        { "label": "2.8 Sec", "icon": "fas fa-bolt" },
-        { "label": "4 Seats", "icon": "fas fa-chair" },
-        { "label": "AWD", "icon": "fas fa-road" }
-      ]
-    },
-    {
-      "id": "maserati-mc20",
-      "brand": "Maserati",
-      "model": "MC20",
-      "category": "Italian Hypercar",
-      "description": "Italian passion and cutting-edge performance",
-      "fullDescription": "The Maserati MC20 is a masterpiece of Italian engineering. With its striking design and incredible performance, it represents the pinnacle of automotive excellence.",
-      "image": "https://images.unsplash.com/photo-1567818735868-e71b99932e29?w=600&h=400&fit=crop",
-      "pricePerDay": 2200,
-      "discount": null,
-      "specs": [
-        { "label": "630 HP", "icon": "fas fa-gauge-high" },
-        { "label": "2.9 Sec", "icon": "fas fa-bolt" },
-        { "label": "2 Seats", "icon": "fas fa-chair" },
-        { "label": "RWD", "icon": "fas fa-road" }
-      ]
+      "id": "bentley-bentayga",
+      "name": "Bentley Bentayga",
+      "category": "British Luxury SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "542 HP", "speed": "4.4s 0-100", "seats": "5 Seats" },
+      "arabicDesc": "فخامة بريطانية... وحضور يفرض نفسه"
     }
   ],
-  "contact": {
-    "phone": "+971 55 247 2483",
-    "whatsapp": "+971 549 794 911",
-    "email": "moradmilhem14@gmail.com",
-    "address": "Dubai, UAE",
-    "hours": "24/7 Available"
-  }
+  "policies": [
+    { "title": "Company Rules", "items": ["No Deposit required to speed up rental process", "Every accident needs a police report unless proven otherwise", "Any traffic violation during rental period is your responsibility", "Reckless driving or tyre burning leads to fines"] },
+    { "title": "Your Comfort & Safety", "items": ["Car provided in best condition for safe journey", "Full safety check and 24/7 assistance", "Zero deposit safety policy", "Drive safely and enjoy your stay with Elite One"] }
+  ]
 }
