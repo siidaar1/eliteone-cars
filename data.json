@@ -18,22 +18,13 @@
   "categories": ["All", "Convertible", "SUV", "Sports"],
   "cars": [
     {
-      "id": "bmw-m8",
-      "name": "BMW M8 Cabrio",
-      "category": "Convertible",
+      "id": "mclaren-gt",
+      "name": "McLaren GT",
+      "category": "Sports",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "617 HP", "speed": "3.1s 0-100", "seats": "4 Seats" },
-      "description": "Open-top luxury with breathtaking, head-turning performance"
-    },
-    {
-      "id": "ferrari-purosangue",
-      "name": "Ferrari Purosangue",
-      "category": "SUV",
-      "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "715 HP", "speed": "3.3s 0-100", "seats": "4 Seats" },
-      "description": "Italian luxury and performance that demands attention"
+      "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "620 HP", "speed": "3.2s 0-100", "seats": "2 Seats" },
+      "description": "The ultimate grand tourer, blending supercar performance with everyday comfort"
     },
     {
       "id": "lamborghini-urus",
@@ -45,13 +36,22 @@
       "description": "Command every road. Unleash unstoppable power."
     },
     {
-      "id": "corvette-c8",
-      "name": "Chevrolet Corvette C8",
-      "category": "Sports",
+      "id": "lamborghini-urus-stealth",
+      "name": "Lamborghini Urus (Stealth Luxury SUV)",
+      "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
-      "description": "Bold American performance and a driving experience that turns heads"
+      "image": "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "650 HP", "speed": "3.6s 0-100", "seats": "5 Seats" },
+      "description": "A murdered-out, all-black finish for a bold, understated presence"
+    },
+    {
+      "id": "bentley-continental-gtc",
+      "name": "Bentley Continental GTC",
+      "category": "Convertible",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "542 HP", "speed": "3.7s 0-100", "seats": "4 Seats" },
+      "description": "Open-top British grand touring at its most refined"
     },
     {
       "id": "bentley-bentayga",
@@ -63,94 +63,121 @@
       "description": "British luxury with a commanding presence"
     },
     {
-      "id": "rolls-royce-cullinan",
-      "name": "Rolls-Royce Cullinan",
+      "id": "lamborghini-urus-performante",
+      "name": "Lamborghini Urus Performante",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "563 HP", "speed": "4.9s 0-100", "seats": "5 Seats" },
-      "description": "The pinnacle of British luxury with an unmatched, regal presence"
+      "image": "https://images.unsplash.com/photo-1614026480414-6059f9d5a961?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "657 HP", "speed": "3.3s 0-100", "seats": "5 Seats" },
+      "description": "The lightest, fastest Urus, built for the track and the road alike"
     },
     {
-      "id": "mercedes-amg-g63",
-      "name": "Mercedes-AMG G63",
+      "id": "mercedes-maybach-gls600",
+      "name": "Mercedes-Maybach GLS 600",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "577 HP", "speed": "4.5s 0-100", "seats": "5 Seats" },
-      "description": "Raw power with an iconic design and total road command"
-    },
-    {
-      "id": "porsche-911-turbo-s",
-      "name": "Porsche 911 Turbo S",
-      "category": "Sports",
-      "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "640 HP", "speed": "2.7s 0-100", "seats": "4 Seats" },
-      "description": "Legendary German performance with unrivaled engineering precision"
-    },
-    {
-      "id": "range-rover-autobiography",
-      "name": "Range Rover Autobiography",
-      "category": "SUV",
-      "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "523 HP", "speed": "5.4s 0-100", "seats": "5 Seats" },
-      "description": "Classic British elegance with comfort that exceeds expectations"
-    },
-    {
-      "id": "ferrari-488-spider",
-      "name": "Ferrari 488 Spider",
-      "category": "Convertible",
-      "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "661 HP", "speed": "3.0s 0-100", "seats": "2 Seats" },
-      "description": "Open-top Italian thrill with an engine note that takes your breath away"
-    },
-    {
-      "id": "mclaren-720s",
-      "name": "McLaren 720S",
-      "category": "Sports",
-      "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "710 HP", "speed": "2.8s 0-100", "seats": "2 Seats" },
-      "description": "Futuristic design with performance that defies the laws of physics"
-    },
-    {
-      "id": "aston-martin-dbx",
-      "name": "Aston Martin DBX",
-      "category": "SUV",
-      "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1600712242805-5f78671b24da?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "542 HP", "speed": "4.3s 0-100", "seats": "5 Seats" },
-      "description": "British sporting elegance with a perfect balance of luxury and power"
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "550 HP", "speed": "4.9s 0-100", "seats": "5 Seats" },
+      "description": "First-class comfort in a full-size luxury SUV"
     },
     {
       "id": "rolls-royce-ghost",
       "name": "Rolls-Royce Ghost",
       "category": "Convertible",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1631729371254-42c2892f0e6e?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "563 HP", "speed": "4.8s 0-100", "seats": "5 Seats" },
       "description": "Luxurious silence with a driving experience like a dream"
     },
     {
-      "id": "audi-rsq8",
-      "name": "Audi RS Q8",
+      "id": "brabus-g-class",
+      "name": "Brabus G-Class",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "591 HP", "speed": "3.8s 0-100", "seats": "5 Seats" },
-      "description": "German precision and sporting power in a design that commands respect"
+      "image": "https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "800 HP", "speed": "3.8s 0-100", "seats": "5 Seats" },
+      "description": "Widebody muscle and outrageous power in an off-road icon"
     },
     {
-      "id": "mercedes-maybach-s680",
-      "name": "Mercedes-Maybach S680",
+      "id": "bmw-440i-convertible",
+      "name": "BMW 4 Series M440i Convertible",
+      "category": "Convertible",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "374 HP", "speed": "4.5s 0-100", "seats": "4 Seats" },
+      "description": "Sharp handling and open-air style in one sleek package"
+    },
+    {
+      "id": "corvette-c8-yellow",
+      "name": "Chevrolet Corvette C8 Stingray (Yellow)",
+      "category": "Sports",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
+      "description": "Bold American performance in a head-turning yellow finish"
+    },
+    {
+      "id": "porsche-911-gt3rs",
+      "name": "Porsche 911 GT3 RS",
+      "category": "Sports",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "518 HP", "speed": "3.0s 0-100", "seats": "2 Seats" },
+      "description": "Track-bred precision with race-car levels of downforce"
+    },
+    {
+      "id": "range-rover-vogue",
+      "name": "Range Rover Vogue",
+      "category": "SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "523 HP", "speed": "5.4s 0-100", "seats": "5 Seats" },
+      "description": "Timeless British elegance with unmatched cabin comfort"
+    },
+    {
+      "id": "corvette-c8-red",
+      "name": "Chevrolet Corvette C8 Stingray (Red)",
+      "category": "Sports",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1611016186353-9af58c69a533?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
+      "description": "A striking red finish on America's mid-engine sports car icon"
+    },
+    {
+      "id": "mercedes-sl63-amg",
+      "name": "Mercedes-Benz SL 63 AMG",
       "category": "Convertible",
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80",
-      "specs": { "hp": "621 HP", "speed": "4.4s 0-100", "seats": "5 Seats" },
-      "description": "The height of German refinement with comfort fit for royalty"
+      "specs": { "hp": "577 HP", "speed": "3.5s 0-100", "seats": "4 Seats" },
+      "description": "A legendary roadster nameplate with modern AMG performance"
+    },
+    {
+      "id": "bmw-m4-convertible",
+      "name": "BMW M4 Convertible",
+      "category": "Convertible",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "503 HP", "speed": "3.7s 0-100", "seats": "4 Seats" },
+      "description": "M-division power with open-top thrills"
+    },
+    {
+      "id": "lamborghini-aventador-s-roadster",
+      "name": "Lamborghini Aventador S Roadster",
+      "category": "Convertible",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "730 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
+      "description": "A naturally-aspirated V12 icon, now open to the sky"
+    },
+    {
+      "id": "ferrari-purosangue",
+      "name": "Ferrari Purosangue",
+      "category": "SUV",
+      "tag": "40% OFF",
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80",
+      "specs": { "hp": "715 HP", "speed": "3.3s 0-100", "seats": "4 Seats" },
+      "description": "Italian luxury and performance that demands attention"
     }
   ],
   "testimonials": [
@@ -161,7 +188,7 @@
     },
     {
       "name": "Fatima Al-Maktoum",
-      "comment": "The BMW M8 Cabrio was pristine and clean. Elite One is definitely the best luxury rental company in Dubai.",
+      "comment": "The BMW M4 Convertible was pristine and clean. Elite One is definitely the best luxury rental company in Dubai.",
       "rating": 5
     },
     {
@@ -171,27 +198,27 @@
     },
     {
       "name": "James Whitfield",
-      "comment": "Rented the Rolls-Royce Cullinan for my anniversary trip. Flawless condition and the delivery to the airport was right on time.",
+      "comment": "Rented the Rolls-Royce Ghost for my anniversary trip. Flawless condition and the delivery to the airport was right on time.",
       "rating": 5
     },
     {
       "name": "Layla Hassan",
-      "comment": "Booked the Range Rover for a week-long family trip around Dubai. Smooth process from start to finish, no hidden fees at all.",
+      "comment": "Booked the Range Rover Vogue for a week-long family trip around Dubai. Smooth process from start to finish, no hidden fees at all.",
       "rating": 5
     },
     {
       "name": "Dimitri Sokolov",
-      "comment": "The Porsche 911 Turbo S exceeded my expectations. Elite One's team was responsive on WhatsApp even at midnight.",
+      "comment": "The Porsche 911 GT3 RS exceeded my expectations. Elite One's team was responsive on WhatsApp even at midnight.",
       "rating": 5
     },
     {
       "name": "Sara Al-Nuaimi",
-      "comment": "Great experience renting the Mercedes-Maybach for a business event. Very professional and the car was spotless.",
+      "comment": "Great experience renting the Mercedes-Maybach GLS 600 for a business event. Very professional and the car was spotless.",
       "rating": 5
     },
     {
       "name": "Ryan Cooper",
-      "comment": "First time renting a supercar and Elite One made it effortless. The McLaren 720S was a dream to drive around Dubai.",
+      "comment": "First time renting a supercar and Elite One made it effortless. The McLaren GT was a dream to drive around Dubai.",
       "rating": 5
     }
   ],
