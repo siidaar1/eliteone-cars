@@ -112,7 +112,7 @@
       "name": "Chevrolet Corvette C8 Stingray (Yellow)",
       "category": "Sports",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4133.PNG",
       "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
       "description": "Bold American performance in a head-turning yellow finish"
     },
@@ -121,7 +121,7 @@
       "name": "Porsche 911 GT3 RS",
       "category": "Sports",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4136.PNG",
       "specs": { "hp": "518 HP", "speed": "3.0s 0-100", "seats": "2 Seats" },
       "description": "Track-bred precision with race-car levels of downforce"
     },
@@ -130,7 +130,7 @@
       "name": "Range Rover Vogue",
       "category": "SUV",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4132.PNG",
       "specs": { "hp": "523 HP", "speed": "5.4s 0-100", "seats": "5 Seats" },
       "description": "Timeless British elegance with unmatched cabin comfort"
     },
@@ -139,7 +139,7 @@
       "name": "Chevrolet Corvette C8 Stingray (Red)",
       "category": "Sports",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1611016186353-9af58c69a533?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4135.PNG",
       "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
       "description": "A striking red finish on America's mid-engine sports car icon"
     },
@@ -148,7 +148,7 @@
       "name": "Mercedes-Benz SL 63 AMG",
       "category": "Convertible",
       "tag": "40% OFF",
-      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=800&q=80",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4134.PNG",
       "specs": { "hp": "577 HP", "speed": "3.5s 0-100", "seats": "4 Seats" },
       "description": "A legendary roadster nameplate with modern AMG performance"
     },
