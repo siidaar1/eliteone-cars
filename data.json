@@ -14,11 +14,12 @@
     { "icon": "clock", "text": "24/7 Support" },
     { "icon": "calendar", "text": "Daily, Weekly & Monthly" }
   ],
+  "categories": ["All", "Convertible", "SUV", "Sports"],
   "cars": [
     {
       "id": "bmw-m8",
       "name": "BMW M8 Cabrio",
-      "category": "Luxury Convertible",
+      "category": "Convertible",
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "617 HP", "speed": "3.1s 0-100", "seats": "4 Seats" },
@@ -27,7 +28,7 @@
     {
       "id": "ferrari-purosangue",
       "name": "Ferrari Purosangue",
-      "category": "Exotic SUV",
+      "category": "SUV",
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "715 HP", "speed": "3.3s 0-100", "seats": "4 Seats" },
@@ -36,7 +37,7 @@
     {
       "id": "lamborghini-urus",
       "name": "Lamborghini Urus",
-      "category": "Super Sport SUV",
+      "category": "SUV",
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "650 HP", "speed": "3.6s 0-100", "seats": "5 Seats" },
@@ -45,7 +46,7 @@
     {
       "id": "corvette-c8",
       "name": "Chevrolet Corvette C8",
-      "category": "American Legend",
+      "category": "Sports",
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
@@ -54,11 +55,46 @@
     {
       "id": "bentley-bentayga",
       "name": "Bentley Bentayga",
-      "category": "British Luxury SUV",
+      "category": "SUV",
       "tag": "40% OFF",
       "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80",
       "specs": { "hp": "542 HP", "speed": "4.4s 0-100", "seats": "5 Seats" },
       "arabicDesc": "فخامة بريطانية... وحضور يفرض نفسه"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Alexander V.",
+      "comment": "Incredible service! Delivered the Lamborghini Urus directly to my hotel in Dubai within 30 minutes. Zero deposit hassle.",
+      "rating": 5
+    },
+    {
+      "name": "Fatima Al-Maktoum",
+      "comment": "The BMW M8 Cabrio was pristine and clean. Elite One is definitely the best luxury rental company in Dubai.",
+      "rating": 5
+    },
+    {
+      "name": "Marcus Aurelius",
+      "comment": "Seamless crypto and USDT payment options. Highly professional team available 24/7 on WhatsApp.",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need to pay a security deposit?",
+      "a": "No! Elite One offers a zero-deposit policy on our luxury and exotic cars to make your rental process smooth and stress-free."
+    },
+    {
+      "q": "Is free delivery included across Dubai?",
+      "a": "Yes, we provide complimentary delivery and pickup anywhere within Dubai (hotels, residences, or airports)."
+    },
+    {
+      "q": "What payment methods do you accept?",
+      "a": "We accept Cash, Credit/Debit Visa cards, Bank Transfers, PayPal, and Cryptocurrencies including USDT and Bitcoin."
+    },
+    {
+      "q": "What documents are required to rent?",
+      "a": "For tourists, we require a valid Passport, International Driving Permit (IDP), and home country driving license. Residents need a UAE Driving License and Emirates ID."
     }
   ],
   "policies": [
