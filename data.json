@@ -101,5 +101,10 @@
   "policies": [
     { "title": "Company Rules", "items": ["No Deposit required to speed up rental process", "Every accident needs a police report unless proven otherwise", "Any traffic violation during rental period is your responsibility", "Reckless driving or tyre burning leads to fines"] },
     { "title": "Your Comfort & Safety", "items": ["Car provided in best condition for safe journey", "Full safety check and 24/7 assistance", "Zero deposit safety policy", "Drive safely and enjoy your stay with Elite One"] }
+  ],
+  "videos": [
+    "https://raw.githubusercontent.com/siidaar1/eliteone-cars/refs/heads/main/video1.mp4",
+    "https://raw.githubusercontent.com/siidaar1/eliteone-cars/refs/heads/main/video2.mp4",
+    "https://raw.githubusercontent.com/siidaar1/eliteone-cars/refs/heads/main/video3.mp4"
   ]
 }
