@@ -6,7 +6,8 @@
     "phone": "+972 54 979 4911",
     "whatsapp": "+972549794911",
     "email": "moradmilhem14@gmail.com",
-    "instagram": "https://www.instagram.com/rentelite1"
+    "instagram": "https://www.instagram.com/rentelite1",
+    "facebook": "https://www.facebook.com"
   },
   "features": [
     { "icon": "shield-check", "text": "Full Insurance Included" },
@@ -91,6 +92,10 @@
     {
       "q": "What payment methods do you accept?",
       "a": "We accept Cash, Credit/Debit Visa cards, Bank Transfers, PayPal, and Cryptocurrencies including USDT and Bitcoin."
+    },
+    {
+      "q": "What documents are required to rent?",
+      "a": "For tourists, we require a valid Passport, International Driving Permit (IDP), and home country driving license. Residents need a UAE Driving License and Emirates ID."
     }
   ],
   "policies": [
