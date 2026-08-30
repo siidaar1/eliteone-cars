@@ -259,7 +259,7 @@
       "color": "Grey",
       "sku": "99571",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/AUDI%20Q3%20L%2099571%20Grey.avif",
       "specs": {
         "hp": "261 HP",
         "speed": "5.8s 0-100",
@@ -274,7 +274,7 @@
       "color": "Bronze",
       "sku": "66447",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/BENTLEY%20BENTAYGA%20S%2066447%20Bronze.jfif",
       "specs": {
         "hp": "542 HP",
         "speed": "4.1s 0-100",
@@ -289,7 +289,7 @@
       "color": "Blue",
       "sku": "8453",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/BENTLEY%20BENTAYGA%20S%208453%20Blue.jpg",
       "specs": {
         "hp": "542 HP",
         "speed": "4.1s 0-100",
@@ -302,7 +302,7 @@
       "name": "BENTLEY CONTINENTAL GTC T",
       "category": "Convertible",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/BENTLEY%20CONTINENTAL%20GTC.jpg",
       "specs": {
         "hp": "542 HP",
         "speed": "3.7s 0-100",
@@ -317,7 +317,7 @@
       "color": "Red",
       "sku": "EE-36114",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/CHEVROLET%20Corvette%202025%20Red%20EE-36114.jpg",
       "specs": {
         "hp": "495 HP",
         "speed": "2.9s 0-100",
@@ -332,7 +332,7 @@
       "color": "Grey",
       "sku": "Q-4810",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Ferrari%20SF90%20Q-4810%20Grey.webp",
       "specs": {
         "hp": "986 HP",
         "speed": "2.5s 0-100",
@@ -347,7 +347,7 @@
       "color": "Black",
       "sku": "S45302",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Ferrari%20GTC%204%20Black%20S%2045302.jpg",
       "specs": {
         "hp": "681 HP",
         "speed": "3.5s 0-100",
