@@ -24,7 +24,11 @@
       "category": "Sports",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4139.PNG",
-      "specs": { "hp": "620 HP", "speed": "3.2s 0-100", "seats": "2 Seats" },
+      "specs": {
+        "hp": "620 HP",
+        "speed": "3.2s 0-100",
+        "seats": "2 Seats"
+      },
       "description": "The ultimate grand tourer, blending supercar performance with everyday comfort"
     },
     {
@@ -33,7 +37,11 @@
       "category": "SUV",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4140.PNG",
-      "specs": { "hp": "650 HP", "speed": "3.6s 0-100", "seats": "5 Seats" },
+      "specs": {
+        "hp": "650 HP",
+        "speed": "3.6s 0-100",
+        "seats": "5 Seats"
+      },
       "description": "Command every road. Unleash unstoppable power."
     },
     {
@@ -42,7 +50,11 @@
       "category": "SUV",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4141.PNG",
-      "specs": { "hp": "650 HP", "speed": "3.6s 0-100", "seats": "5 Seats" },
+      "specs": {
+        "hp": "650 HP",
+        "speed": "3.6s 0-100",
+        "seats": "5 Seats"
+      },
       "description": "A murdered-out, all-black finish for a bold, understated presence"
     },
     {
@@ -51,7 +63,11 @@
       "category": "Convertible",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4143.PNG",
-      "specs": { "hp": "542 HP", "speed": "3.7s 0-100", "seats": "4 Seats" },
+      "specs": {
+        "hp": "542 HP",
+        "speed": "3.7s 0-100",
+        "seats": "4 Seats"
+      },
       "description": "Open-top British grand touring at its most refined"
     },
     {
@@ -60,7 +76,11 @@
       "category": "SUV",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4145.PNG",
-      "specs": { "hp": "542 HP", "speed": "4.4s 0-100", "seats": "5 Seats" },
+      "specs": {
+        "hp": "542 HP",
+        "speed": "4.4s 0-100",
+        "seats": "5 Seats"
+      },
       "description": "British luxury with a commanding presence"
     },
     {
@@ -69,7 +89,11 @@
       "category": "SUV",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4137.PNG",
-      "specs": { "hp": "657 HP", "speed": "3.3s 0-100", "seats": "5 Seats" },
+      "specs": {
+        "hp": "657 HP",
+        "speed": "3.3s 0-100",
+        "seats": "5 Seats"
+      },
       "description": "The lightest, fastest Urus, built for the track and the road alike"
     },
     {
@@ -78,7 +102,11 @@
       "category": "SUV",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4142.PNG",
-      "specs": { "hp": "550 HP", "speed": "4.9s 0-100", "seats": "5 Seats" },
+      "specs": {
+        "hp": "550 HP",
+        "speed": "4.9s 0-100",
+        "seats": "5 Seats"
+      },
       "description": "First-class comfort in a full-size luxury SUV"
     },
     {
@@ -87,7 +115,11 @@
       "category": "Convertible",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4144.PNG",
-      "specs": { "hp": "563 HP", "speed": "4.8s 0-100", "seats": "5 Seats" },
+      "specs": {
+        "hp": "563 HP",
+        "speed": "4.8s 0-100",
+        "seats": "5 Seats"
+      },
       "description": "Luxurious silence with a driving experience like a dream"
     },
     {
@@ -96,7 +128,11 @@
       "category": "SUV",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4146.PNG",
-      "specs": { "hp": "800 HP", "speed": "3.8s 0-100", "seats": "5 Seats" },
+      "specs": {
+        "hp": "800 HP",
+        "speed": "3.8s 0-100",
+        "seats": "5 Seats"
+      },
       "description": "Widebody muscle and outrageous power in an off-road icon"
     },
     {
@@ -105,7 +141,11 @@
       "category": "Convertible",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4129.PNG",
-      "specs": { "hp": "374 HP", "speed": "4.5s 0-100", "seats": "4 Seats" },
+      "specs": {
+        "hp": "374 HP",
+        "speed": "4.5s 0-100",
+        "seats": "4 Seats"
+      },
       "description": "Sharp handling and open-air style in one sleek package"
     },
     {
@@ -114,7 +154,11 @@
       "category": "Sports",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4133.PNG",
-      "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
+      "specs": {
+        "hp": "495 HP",
+        "speed": "2.9s 0-100",
+        "seats": "2 Seats"
+      },
       "description": "Bold American performance in a head-turning yellow finish"
     },
     {
@@ -123,7 +167,11 @@
       "category": "Sports",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4136.PNG",
-      "specs": { "hp": "518 HP", "speed": "3.0s 0-100", "seats": "2 Seats" },
+      "specs": {
+        "hp": "518 HP",
+        "speed": "3.0s 0-100",
+        "seats": "2 Seats"
+      },
       "description": "Track-bred precision with race-car levels of downforce"
     },
     {
@@ -132,7 +180,11 @@
       "category": "SUV",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4132.PNG",
-      "specs": { "hp": "523 HP", "speed": "5.4s 0-100", "seats": "5 Seats" },
+      "specs": {
+        "hp": "523 HP",
+        "speed": "5.4s 0-100",
+        "seats": "5 Seats"
+      },
       "description": "Timeless British elegance with unmatched cabin comfort"
     },
     {
@@ -141,7 +193,11 @@
       "category": "Sports",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4135.PNG",
-      "specs": { "hp": "495 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
+      "specs": {
+        "hp": "495 HP",
+        "speed": "2.9s 0-100",
+        "seats": "2 Seats"
+      },
       "description": "A striking red finish on America's mid-engine sports car icon"
     },
     {
@@ -150,7 +206,11 @@
       "category": "Convertible",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4134.PNG",
-      "specs": { "hp": "577 HP", "speed": "3.5s 0-100", "seats": "4 Seats" },
+      "specs": {
+        "hp": "577 HP",
+        "speed": "3.5s 0-100",
+        "seats": "4 Seats"
+      },
       "description": "A legendary roadster nameplate with modern AMG performance"
     },
     {
@@ -159,7 +219,11 @@
       "category": "Convertible",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4130.PNG",
-      "specs": { "hp": "503 HP", "speed": "3.7s 0-100", "seats": "4 Seats" },
+      "specs": {
+        "hp": "503 HP",
+        "speed": "3.7s 0-100",
+        "seats": "4 Seats"
+      },
       "description": "M-division power with open-top thrills"
     },
     {
@@ -168,7 +232,11 @@
       "category": "Convertible",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4131.PNG",
-      "specs": { "hp": "730 HP", "speed": "2.9s 0-100", "seats": "2 Seats" },
+      "specs": {
+        "hp": "730 HP",
+        "speed": "2.9s 0-100",
+        "seats": "2 Seats"
+      },
       "description": "A naturally-aspirated V12 icon, now open to the sky"
     },
     {
@@ -177,8 +245,498 @@
       "category": "SUV",
       "tag": "40% OFF",
       "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/IMG_4138.PNG",
-      "specs": { "hp": "715 HP", "speed": "3.3s 0-100", "seats": "4 Seats" },
+      "specs": {
+        "hp": "715 HP",
+        "speed": "3.3s 0-100",
+        "seats": "4 Seats"
+      },
       "description": "Italian luxury and performance that demands attention"
+    },
+    {
+      "id": "audi-q3-l-grey",
+      "name": "AUDI Q3 L",
+      "category": "SUV",
+      "color": "Grey",
+      "sku": "99571",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "261 HP",
+        "speed": "5.8s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "Premium compact luxury SUV with sophisticated design"
+    },
+    {
+      "id": "bentley-bentayga-s-bronze",
+      "name": "BENTLEY BENTAYGA S",
+      "category": "SUV",
+      "color": "Bronze",
+      "sku": "66447",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "542 HP",
+        "speed": "4.1s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "British ultra-luxury SUV with ultimate refinement"
+    },
+    {
+      "id": "bentley-bentayga-s-blue",
+      "name": "BENTLEY BENTAYGA S",
+      "category": "SUV",
+      "color": "Blue",
+      "sku": "8453",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "542 HP",
+        "speed": "4.1s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "British ultra-luxury SUV in stunning blue"
+    },
+    {
+      "id": "bentley-continental-gtc-t",
+      "name": "BENTLEY CONTINENTAL GTC T",
+      "category": "Convertible",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "542 HP",
+        "speed": "3.7s 0-100",
+        "seats": "4 Seats"
+      },
+      "description": "Open-air British luxury and performance"
+    },
+    {
+      "id": "chevrolet-corvette-2025-red",
+      "name": "Chevrolet Corvette 2025",
+      "category": "Sports",
+      "color": "Red",
+      "sku": "EE-36114",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "495 HP",
+        "speed": "2.9s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "American icon with mid-engine supercar performance"
+    },
+    {
+      "id": "ferrari-sf90-grey",
+      "name": "Ferrari SF90",
+      "category": "Sports",
+      "color": "Grey",
+      "sku": "Q-4810",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "986 HP",
+        "speed": "2.5s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Hybrid hypercar combining electric and V12 power"
+    },
+    {
+      "id": "ferrari-gtc4-black",
+      "name": "Ferrari GTC4 Lusso",
+      "category": "Sports",
+      "color": "Black",
+      "sku": "S45302",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "681 HP",
+        "speed": "3.5s 0-100",
+        "seats": "4 Seats"
+      },
+      "description": "Italian grand tourer with timeless design"
+    },
+    {
+      "id": "gmc-yukon-black-2024",
+      "name": "GMC YUKON 2024",
+      "category": "SUV",
+      "color": "Black",
+      "sku": "F36118",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "420 HP",
+        "speed": "6.0s 0-100",
+        "seats": "7 Seats"
+      },
+      "description": "Full-size luxury SUV with commanding presence"
+    },
+    {
+      "id": "lamborghini-huracan-evo-yellow",
+      "name": "Lamborghini Huracán EVO",
+      "category": "Sports",
+      "color": "Yellow",
+      "sku": "O-5016",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "640 HP",
+        "speed": "2.9s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Mid-engine Italian supercar with aggressive styling"
+    },
+    {
+      "id": "lamborghini-huracan-evo-spyder",
+      "name": "Lamborghini Huracán EVO Spyder",
+      "category": "Convertible",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "640 HP",
+        "speed": "3.1s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Open-top supercar thrills with retractable roof"
+    },
+    {
+      "id": "lamborghini-huracan-evo-spyder-v",
+      "name": "Lamborghini Huracán EVO Spyder",
+      "category": "Convertible",
+      "sku": "V-8412",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "640 HP",
+        "speed": "3.1s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Open-top supercar thrills with retractable roof"
+    },
+    {
+      "id": "lamborghini-huracan-evo-spyder-t",
+      "name": "Lamborghini Huracán EVO Spyder",
+      "category": "Convertible",
+      "sku": "T8430",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "640 HP",
+        "speed": "3.1s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Open-top supercar thrills with retractable roof"
+    },
+    {
+      "id": "lamborghini-huracan-evo-grey",
+      "name": "Lamborghini Huracán EVO",
+      "category": "Sports",
+      "color": "Grey",
+      "sku": "L-3605",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "640 HP",
+        "speed": "2.9s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Mid-engine Italian supercar with aggressive styling"
+    },
+    {
+      "id": "lamborghini-revuelto-black-2025",
+      "name": "Lamborghini Revuelto 2025",
+      "category": "Sports",
+      "color": "Black",
+      "sku": "L-6458",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "1001 HP",
+        "speed": "2.5s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Next-gen hybrid hypercar with 12-cylinder power"
+    },
+    {
+      "id": "lamborghini-revuelto-yellow-2024",
+      "name": "Lamborghini Revuelto 2024",
+      "category": "Sports",
+      "color": "Yellow",
+      "sku": "I-1417",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "1001 HP",
+        "speed": "2.5s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Next-gen hybrid hypercar in vibrant yellow"
+    },
+    {
+      "id": "lamborghini-sto-yellow",
+      "name": "Lamborghini STO",
+      "category": "Sports",
+      "color": "Yellow",
+      "sku": "N4830",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "641 HP",
+        "speed": "3.0s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Track-focused Huracán variant with aggressive aero"
+    },
+    {
+      "id": "lamborghini-urus-se-green",
+      "name": "Lamborghini Urus SE",
+      "category": "SUV",
+      "color": "Green",
+      "sku": "T-99446",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "657 HP",
+        "speed": "3.6s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "Hybrid-electric super SUV with eco-consciousness"
+    },
+    {
+      "id": "mercedes-g-class-black-2025",
+      "name": "Mercedes G-Class 2025",
+      "category": "SUV",
+      "color": "Black",
+      "sku": "M5506",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "585 HP",
+        "speed": "4.5s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "Iconic off-road SUV with legendary capability"
+    },
+    {
+      "id": "mercedes-g-class-green",
+      "name": "Mercedes G-Class",
+      "category": "SUV",
+      "color": "Green",
+      "sku": "Q8430",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "585 HP",
+        "speed": "4.5s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "Iconic off-road SUV in striking green"
+    },
+    {
+      "id": "mercedes-gls-600-black",
+      "name": "Mercedes GLS 600",
+      "category": "SUV",
+      "color": "Black",
+      "sku": "N50509",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "550 HP",
+        "speed": "4.9s 0-100",
+        "seats": "7 Seats"
+      },
+      "description": "Three-row super luxury SUV with unmatched comfort"
+    },
+    {
+      "id": "porsche-911-black",
+      "name": "Porsche 911",
+      "category": "Sports",
+      "color": "Black",
+      "sku": "J68808",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "379 HP",
+        "speed": "4.6s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Timeless German sports car icon"
+    },
+    {
+      "id": "porsche-911-carrera-black-2025",
+      "name": "Porsche 911 Carrera 2025",
+      "category": "Sports",
+      "color": "Black",
+      "sku": "C61845",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "379 HP",
+        "speed": "4.6s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Modern evolution of the iconic German sports car"
+    },
+    {
+      "id": "porsche-911-gt3-rs",
+      "name": "Porsche 911 GT3 RS",
+      "category": "Sports",
+      "sku": "I28045",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "518 HP",
+        "speed": "3.0s 0-100",
+        "seats": "2 Seats"
+      },
+      "description": "Ultimate track-focused 911 with extreme aerodynamics"
+    },
+    {
+      "id": "range-rover-vogue-white",
+      "name": "Range Rover Vogue",
+      "category": "SUV",
+      "color": "White",
+      "sku": "EE14722",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "523 HP",
+        "speed": "5.4s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "British luxury SUV in pristine white finish"
+    },
+    {
+      "id": "range-rover-vogue-black",
+      "name": "Range Rover Vogue",
+      "category": "SUV",
+      "color": "Black",
+      "sku": "R45922",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "523 HP",
+        "speed": "5.4s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "British luxury SUV with sophisticated black finish"
+    },
+    {
+      "id": "rolls-royce-cullinan-1",
+      "name": "Rolls-Royce Cullinan",
+      "category": "SUV",
+      "sku": "U4829",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "563 HP",
+        "speed": "5.0s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "Ultra-luxury super SUV with whisper-quiet ride"
+    },
+    {
+      "id": "rolls-royce-cullinan-2",
+      "name": "Rolls-Royce Cullinan",
+      "category": "SUV",
+      "sku": "F66063",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "563 HP",
+        "speed": "5.0s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "Ultra-luxury super SUV with whisper-quiet ride"
+    },
+    {
+      "id": "rolls-royce-cullinan-white",
+      "name": "Rolls-Royce Cullinan",
+      "category": "SUV",
+      "color": "White",
+      "sku": "T-62020",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "563 HP",
+        "speed": "5.0s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "Ultra-luxury super SUV in classic white"
+    },
+    {
+      "id": "rolls-royce-dawn-grey",
+      "name": "Rolls-Royce Dawn",
+      "category": "Convertible",
+      "color": "Grey",
+      "sku": "U9879",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "563 HP",
+        "speed": "5.0s 0-100",
+        "seats": "4 Seats"
+      },
+      "description": "Bespoke convertible luxury with open-air elegance"
+    },
+    {
+      "id": "rolls-royce-dawn-blue",
+      "name": "Rolls-Royce Dawn",
+      "category": "Convertible",
+      "color": "Blue",
+      "sku": "Q5507",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "563 HP",
+        "speed": "5.0s 0-100",
+        "seats": "4 Seats"
+      },
+      "description": "Bespoke convertible in stunning blue finish"
+    },
+    {
+      "id": "rolls-royce-ghost-orange-interior",
+      "name": "Rolls-Royce Ghost",
+      "category": "Sedan",
+      "interior": "Orange",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "563 HP",
+        "speed": "4.8s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "Ultra-luxury sedan with bespoke orange interior"
+    },
+    {
+      "id": "rolls-royce-ghost-white-orange",
+      "name": "Rolls-Royce Ghost",
+      "category": "Sedan",
+      "color": "White",
+      "interior": "Orange",
+      "sku": "S4865",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "563 HP",
+        "speed": "4.8s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "White exterior with warm orange bespoke interior"
+    },
+    {
+      "id": "rolls-royce-ghost-blue-extended",
+      "name": "Rolls-Royce Ghost Extended",
+      "category": "Sedan",
+      "color": "Dark Blue",
+      "sku": "P688",
+      "tag": "NEW",
+      "image": "",
+      "specs": {
+        "hp": "563 HP",
+        "speed": "4.8s 0-100",
+        "seats": "5 Seats"
+      },
+      "description": "Extended wheelbase sedan in elegant dark blue"
     }
   ],
   "testimonials": [
