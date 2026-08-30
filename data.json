@@ -362,7 +362,7 @@
       "color": "Black",
       "sku": "F36118",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/GMC%20YUKON%20F36118%202024%20Black.jfif",
       "specs": {
         "hp": "420 HP",
         "speed": "6.0s 0-100",
@@ -377,7 +377,7 @@
       "color": "Yellow",
       "sku": "O-5016",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Lamborghini%20Huracán%20EVO%20Yellow%20O-5016.png",
       "specs": {
         "hp": "640 HP",
         "speed": "2.9s 0-100",
@@ -390,7 +390,7 @@
       "name": "Lamborghini Huracán EVO Spyder",
       "category": "Convertible",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Lamborghini%20Huracan%20EVO%20Spyder%20T8430.png",
       "specs": {
         "hp": "640 HP",
         "speed": "3.1s 0-100",
@@ -404,7 +404,7 @@
       "category": "Convertible",
       "sku": "V-8412",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Lamborghini%20Huracan%20EVO%20Spyder%20V-8412.png",
       "specs": {
         "hp": "640 HP",
         "speed": "3.1s 0-100",
@@ -418,7 +418,7 @@
       "category": "Convertible",
       "sku": "T8430",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Lamborghini%20Huracan%20EVO%20Spyder%20T8430.png",
       "specs": {
         "hp": "640 HP",
         "speed": "3.1s 0-100",
@@ -448,7 +448,7 @@
       "color": "Black",
       "sku": "L-6458",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Lamborghini%20Revuelto%20L-6458%202025%20Black.png",
       "specs": {
         "hp": "1001 HP",
         "speed": "2.5s 0-100",
@@ -463,7 +463,7 @@
       "color": "Yellow",
       "sku": "I-1417",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Lamborghini%20Revuelto%20I-1417%202024%20Yellow.png",
       "specs": {
         "hp": "1001 HP",
         "speed": "2.5s 0-100",
@@ -478,7 +478,7 @@
       "color": "Yellow",
       "sku": "N4830",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Lamborghini%20STO%20N%204830%20Yellow.png",
       "specs": {
         "hp": "641 HP",
         "speed": "3.0s 0-100",
@@ -493,7 +493,7 @@
       "color": "Green",
       "sku": "T-99446",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Lamborghini%20Urus%20SE%20T-99446%20Green.png",
       "specs": {
         "hp": "657 HP",
         "speed": "3.6s 0-100",
@@ -508,7 +508,7 @@
       "color": "Black",
       "sku": "M5506",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Mercedes%20G-Class%20M5506%202025%20Black.png",
       "specs": {
         "hp": "585 HP",
         "speed": "4.5s 0-100",
@@ -523,7 +523,7 @@
       "color": "Green",
       "sku": "Q8430",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Mercedes%20G-Class%20Q8430%20Green.png",
       "specs": {
         "hp": "585 HP",
         "speed": "4.5s 0-100",
@@ -538,7 +538,7 @@
       "color": "Black",
       "sku": "N50509",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Mercedes%20GLS%20600%20N50509%20Black.png",
       "specs": {
         "hp": "550 HP",
         "speed": "4.9s 0-100",
@@ -553,7 +553,7 @@
       "color": "Black",
       "sku": "J68808",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/PORSCHE%20911%20J68808%20Black.png",
       "specs": {
         "hp": "379 HP",
         "speed": "4.6s 0-100",
@@ -582,7 +582,7 @@
       "category": "Sports",
       "sku": "I28045",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/PORSCHE%20911%20GT3%20RS%20I28045.png",
       "specs": {
         "hp": "518 HP",
         "speed": "3.0s 0-100",
@@ -597,7 +597,7 @@
       "color": "White",
       "sku": "EE14722",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Range%20Rover%20Vogue%20White%20EE14722.png",
       "specs": {
         "hp": "523 HP",
         "speed": "5.4s 0-100",
@@ -612,7 +612,7 @@
       "color": "Black",
       "sku": "R45922",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Range%20Rover%20Vogue%20Black%20R45922.png",
       "specs": {
         "hp": "523 HP",
         "speed": "5.4s 0-100",
@@ -626,7 +626,7 @@
       "category": "SUV",
       "sku": "U4829",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Rolls-Royce%20Cullinan%20U4829.png",
       "specs": {
         "hp": "563 HP",
         "speed": "5.0s 0-100",
@@ -640,7 +640,7 @@
       "category": "SUV",
       "sku": "F66063",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Rolls-Royce%20Cullinan%20F66063.png",
       "specs": {
         "hp": "563 HP",
         "speed": "5.0s 0-100",
@@ -655,7 +655,7 @@
       "color": "White",
       "sku": "T-62020",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Rolls-Royce%20Cullinan%20T-62020%20White.png",
       "specs": {
         "hp": "563 HP",
         "speed": "5.0s 0-100",
@@ -670,7 +670,7 @@
       "color": "Grey",
       "sku": "U9879",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Rolls-Royce%20Dawn%20U%209879%20Grey.png",
       "specs": {
         "hp": "563 HP",
         "speed": "5.0s 0-100",
@@ -685,7 +685,7 @@
       "color": "Blue",
       "sku": "Q5507",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Rolls-Royce%20Dawn%20Blue%20Q5507.png",
       "specs": {
         "hp": "563 HP",
         "speed": "5.0s 0-100",
@@ -699,7 +699,7 @@
       "category": "Sedan",
       "interior": "Orange",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Rolls-Royce%20Ghost%20interior%20orange.png",
       "specs": {
         "hp": "563 HP",
         "speed": "4.8s 0-100",
@@ -715,7 +715,7 @@
       "interior": "Orange",
       "sku": "S4865",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Rolls-Royce%20Ghost%20S4865%20White%20-%20Orange.png",
       "specs": {
         "hp": "563 HP",
         "speed": "4.8s 0-100",
@@ -730,7 +730,7 @@
       "color": "Dark Blue",
       "sku": "P688",
       "tag": "NEW",
-      "image": "",
+      "image": "https://raw.githubusercontent.com/siidaar1/eliteone-cars/main/Rolls-Royce%20Ghost%20Dark%20Blue%20Long.png",
       "specs": {
         "hp": "563 HP",
         "speed": "4.8s 0-100",
